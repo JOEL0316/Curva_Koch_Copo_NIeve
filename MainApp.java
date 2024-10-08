@@ -1,7 +1,8 @@
+//importación de librerías 
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import java.awt.Graphics;
-
+//Declaracion del método principal 
 public class MainApp extends JPanel {
     double sin60 = Math.sin(Math.PI / 3.0);  // Valor del seno de 60 grados
     int nivel_de_recursividad = 5;  // Puedes cambiar el nivel de recursividad
